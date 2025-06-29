@@ -38,7 +38,7 @@ class Particle {
     this.size = this.effect.gap;
     this.vx = 0;
     this.vy = 0;
-    this.ease = 0.3;
+    this.ease = 0.2;
     this.friction = 0.98;
     this.dx = 0;
     this.dy = 0;
@@ -73,7 +73,7 @@ class Particle {
     this.y = Math.random() * this.effect.height;
     this.vx = 0;
     this.vy = 0;
-    this.ease = 0.4;
+    this.ease = 0.7;
   }
 }
 
@@ -100,7 +100,7 @@ class Effect {
     this.y = this.centerY - this.image.height * 0.5;
     this.gap = 2;
     this.mouse = {
-      radius: 3000,
+      radius: 2000,
       x: undefined,
       y: undefined,
     };
